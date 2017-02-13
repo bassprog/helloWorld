@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    width: 100%;
+    background-color: green;
+}
+
+#menuOrizzontale {
+    float: left;
+    width: 100%;
+    background-color: greenyellow;
+}
+
+#main {
+    float: left;
+    width: 100%;
+}
+
+#leftElement {
+    float: left;
+    width: 20%;
+    background-color: green;
+}
+
+#centralElement {
+    float: left;
+    width: 60%;
+    background-color: lawngreen;
+}
+
+#post {
+    float: left;
+    width: 94%;
+    padding: 3%;
+}
+
+#rightElement {
+    float: left;
+    width: 20%;
+    background-color: green;
+}
+
+#footer {
+    float: left;
+    width: 100%;
+    background-color: greenyellow;
+}

@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?42527480');
+  src: url('../font/fontello.eot?42527480#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?42527480') format('woff2'),
+       url('../font/fontello.woff?42527480') format('woff'),
+       url('../font/fontello.ttf?42527480') format('truetype'),
+       url('../font/fontello.svg?42527480#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?42527480#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-android:before { content: '\e800'; } /* 'î €' */
+.icon-link:before { content: '\e801'; } /* 'î ' */
+.icon-chat:before { content: '\e802'; } /* 'î ‚' */
+.icon-pencil:before { content: '\e803'; } /* 'î ƒ' */
+.icon-right-open-big:before { content: '\e804'; } /* 'î „' */
+.icon-left-open-big:before { content: '\e805'; } /* 'î …' */
+.icon-down-open-big:before { content: '\e806'; } /* 'î †' */
+.icon-up-open-big:before { content: '\e807'; } /* 'î ‡' */
+.icon-left-thin:before { content: '\e808'; } /* 'î ˆ' */
+.icon-right-thin:before { content: '\e809'; } /* 'î ‰' */
+.icon-folder-open:before { content: '\e80a'; } /* 'î Š' */
+.icon-download-alt:before { content: '\e80b'; } /* 'î ‹' */
+.icon-eye:before { content: '\e80c'; } /* 'î Œ' */
+.icon-cancel:before { content: '\e80d'; } /* 'î ' */
+.icon-home:before { content: '\e80e'; } /* 'î Ž' */
+.icon-search:before { content: '\e80f'; } /* 'î ' */
+.icon-mail:before { content: '\e810'; } /* 'î ' */
+.icon-up:before { content: '\e811'; } /* 'î ‘' */
+.icon-play:before { content: '\e812'; } /* 'î ’' */
+.icon-clock:before { content: '\e813'; } /* 'î “' */
+.icon-calendar:before { content: '\e814'; } /* 'î ”' */
+.icon-user:before { content: '\e815'; } /* 'î •' */
+.icon-chart-bar:before { content: '\e816'; } /* 'î –' */
+.icon-mobile:before { content: '\e817'; } /* 'î —' */
+.icon-warning-empty:before { content: '\e818'; } /* 'î ˜' */
+.icon-arrows-cw:before { content: '\e819'; } /* 'î ™' */
+.icon-link-ext:before { content: '\f08e'; } /* 'ï‚Ž' */
+.icon-twitter:before { content: '\f099'; } /* 'ï‚™' */
+.icon-facebook:before { content: '\f09a'; } /* 'ï‚š' */
+.icon-rss:before { content: '\f09e'; } /* 'ï‚ž' */
+.icon-linkedin:before { content: '\f0e1'; } /* 'ïƒ¡' */
+.icon-angle-double-left:before { content: '\f100'; } /* 'ï„€' */
+.icon-angle-double-right:before { content: '\f101'; } /* 'ï„' */
+.icon-quote-left:before { content: '\f10d'; } /* 'ï„' */
+.icon-folder-open-empty:before { content: '\f115'; } /* 'ï„•' */
+.icon-youtube:before { content: '\f167'; } /* 'ï…§' */
+.icon-apple:before { content: '\f179'; } /* 'ï…¹' */
+.icon-windows:before { content: '\f17a'; } /* 'ï…º' */
+.icon-linux:before { content: '\f17c'; } /* 'ï…¼' */
+.icon-bug:before { content: '\f188'; } /* 'ï†ˆ' */
+.icon-gplus:before { content: '\f30f'; } /* 'ïŒ' */

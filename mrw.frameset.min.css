@@ -1,0 +1,31 @@
+@import url('fontello/css/fontello.css');body{overflow:hidden; font-family:verdana,arial,tahoma; font-size:14px; background:#FFFFFF; color:#1A1A1A}
+body,iframe{margin:0; padding:0}
+iframe{display:block; width:100%; border:0}
+div.top{height:90px; width:100%; padding:5px 0; overflow:hidden}
+div.top:after{content:''; display:table; clear:both}
+.top > .sx{width:290px; float:left; margin-left:5px}
+.top > .dx{width:728px; float:right; margin-right:5px}
+
+.top > .sx > h1{margin:0; padding:0; font-size:12px; color:#1A4269; line-height:25px}
+
+.top >.sx > ul
+
+{list-style-type:none; margin:0; padding:0}
+
+.top > .sx > ul > li{
+
+ display:inline-block;
+ margin-right:5px;
+ width:90px;
+ line-height:90px;
+ text-align:center;
+ font-size:24px; 
+color:#FFF; 
+cursor:pointer
+}
+.top > .sx > ul > li.scheda{background-color:#336699}
+.top > .sx > ul > li.bianco{background-color:#FFA31A}
+.top > .sx > ul > li.errore{background-color:#CC3300}
+.top > .sx > ul > li.scheda:hover{background-color:#4080BF}
+.top > .sx > ul > li.bianco:hover{background-color:#FFB84D}
+.top > .sx > ul > li.errore:hover{background-color:#FF4000}

@@ -1,0 +1,185 @@
+					
+    body,html{
+	
+	}	
+			
+		
+	#wrapper {
+			max-height:1024px;
+			box-shadow: 1px 1px 10px #666666;
+			width :1024px;
+			height : 768px;
+			background-color : white; 
+			position : absolute;
+			left : 12.5%;
+			top : 10%;
+			bottom : 10%;
+			right: 5%;
+			border: 2px solid #ccc;	
+			
+			}
+	
+	#banner1 {
+	
+			/*max-height:50px;
+			min-height:jn 
+			10px*/
+			display : block;
+			background-color : #00FF00;
+			width :1024px;
+			height : 350px;
+			position : relative;
+			bottom : 16px;
+			right: 40px;
+			border: 1px solid black; 
+			
+			}
+			 
+	#menuTop {
+			display : block;
+			background-color : #00FFB2;/*#7FFF00*/
+			width : 100%;
+			height : 50px;
+			position : relative;
+			top: -3px;
+			border: 1px solid black; 
+			}
+		
+	#menuTop ul {
+		float : left;
+		list-style-type : none; 
+		margin-left: 20px;
+		left:50%;
+		position:relative;
+		padding-top:-4px;
+		margin-left: -50%;
+		left:50%;
+	}
+	
+	#menuTop ul li {
+		margin-left: 40px;
+		float : left;
+		left:-50%;
+	}
+	
+	#menuTop ul li a {
+		text-align: center;
+		display: inline-block;
+		background-color : #465945;
+		height: 10px;
+		width: 100px;
+	    color: black;
+		text-decoration: none;
+		font-weight:bold;
+		font-size:medium;
+		font-family: Arial, Verdana, sans-serif;
+		
+		
+	}
+	
+	#menuTop ul li a:hover {
+		color: white;
+		background-color: green;
+	}
+	#banner2 {
+			
+			display : block;
+			background-color : #00FF00;
+			width :100%;
+			height : 50px;
+			position : relative;
+			top : -3px;
+			border: 1px solid black; 
+			 
+		}
+	
+	#content{ 
+				display:block;
+				width: 60%;
+				height : 463px;
+				background-color : #00FF00;
+				position : relative ;
+				top:-3px;
+				left : 20%;
+				right : 24%;
+				border: 1px solid black;
+
+				
+			}
+	#content p {
+		line-height: 1.3;
+		font-weight:bold;
+		font-size:medium;
+		font-family: Arial, Verdana, sans-serif;
+		max-height:463px;
+		min-height:50px;
+		text-align:center;
+		width: 60%;
+		height : 463px;
+		
+	}
+	
+	#columnLeft {
+			
+			display : block;
+			width :20%;
+			height : 463px;
+			background-color : #00FF00;
+			float: left;
+			position : relative;
+			top: -3px;
+			
+			border: 1px solid black;
+			/*overflow-x: scroll;
+			padding-bottom: 100px;*/
+			
+			 }
+			 
+	#columnRight {
+			
+			display : block;
+			width :20%;
+			height :463px;
+			background-color : #00FF00;
+			float: right;
+			position : relative;
+			top: -3px;
+			border: 1px solid black;
+			right : -2px;
+			 }
+	
+	#footer{
+		max-height:155px;
+		min-height:55px;
+		display : block;
+		width: 100%;
+		height =155px;
+		background-color : #00FF00;
+		position :relative;
+		bottom : 10px;
+		top: 65px;
+		margin-top:-70px;
+		padding-bottom: 70px;
+		border: 1px solid black;
+	}
+	
+/*	
+	#content { 
+			width: 584px;
+			height =438px;
+			background-color : #808080;
+			position : relative ;
+			left : 220px;
+			bottom : 63px;
+			border: 1px solid black;
+			text-align: justify;
+			padding-left: -12px;
+			}
+			
+	
+	
+	html,body {
+		height: 100%;
+		width: 80%;
+		background-image: url("mameRawane.jpg");
+	}
