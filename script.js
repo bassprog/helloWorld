@@ -1,15 +1,12 @@
 /*
 var slideIndex = 1;
 showDivs(slideIndex);
-
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
-
 function currentDiv(n) {
   showDivs(slideIndex = n);
 }
-
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
@@ -25,8 +22,15 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " w3-white";
 }
-*/
 
+<script src="//widget.time.is/t.js"></script>
+  <script>
+    time_is_widget.init({
+      Dakar_z723: {}
+    });
+  </script>
+*/
+/*<script src="script.js"></script>*/
 var myIndex = 0;
 carousel();
 
@@ -34,12 +38,12 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+        x[i].style.display = "none";
     }
     myIndex++;
     if (myIndex > x.length) {
-		myIndex = 1;
-	}    
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel,5000);
-	}
+        myIndex = 1;
+    }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 5000);
+}

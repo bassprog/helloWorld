@@ -1,7 +1,8 @@
 /******************
 	GENERICI
 ******************/
-body{
+
+body {
 	width: 100%;
 	float: left;
 	margin: 0;
@@ -10,12 +11,12 @@ body{
 
 #container {
 	float: left;
-    width: 79.9%;
+	width: 79.9%;
 	margin-top: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
-    margin-bottom: 5%;
-    /*border: 1px solid gray;*/
+	margin-bottom: 5%;
+	/*border: 1px solid gray;*/
 	font-size: 20px;
 	height: 100%;
 }
@@ -25,9 +26,9 @@ body{
 	position: relative;
 	width: 99.9%;
 	height: auto;
-    color: white;
-    clear: left;
-    text-align: center;
+	color: white;
+	clear: left;
+	text-align: center;
 	border: 1px solid gray;
 }
 
@@ -39,13 +40,15 @@ body{
 	display: block;
 }
 
- footer {
-    padding: 0.5em;
-    color: white;
-    background-color: #040d0c;
-    clear: left;
-    text-align: center;
+footer {
+	padding: 0.5em;
+	color: white;
+	background-color: #040d0c;
+	clear: both;
+	text-align: center;
+	height: 100px;
 }
+
 
 /*
 #navTop{
@@ -111,79 +114,72 @@ body{
   display: block;
 }*/
 
-
-#menu  {
-    padding-top:1px;
-    width: 99.9%;
+#menu {
+	padding-top: 1px;
+	width: 99.9%;
 	float: left;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
 	background-color: #fff;
-    
 }
 
-#menu ul
-{ 
-    
+#menu ul {
 	list-style: none;
-    margin-left:1px;
-    padding: 0;
-    text-align: center;
-    display: inline;
-    background:#fff;
-    
-  /*eugenio 
+	margin-left: 1px;
+	padding: 0;
+	text-align: center;
+	display: inline;
+	background: #fff;
+	/*eugenio 
     width: 20%;
     float: left;*/
-  /*
+	/*
   Bass
   padding-top: -1px;
   padding-left:0px;
   background:#fff;	
   overflow: hidden;
   background-color: #1d582c;*/
-
 }
 
-#menu  ul  li {
-    /*
+#menu ul li {
+	/*
     eugenio
     width: 100%;
 	float: left;
 	font-style: normal;
 	display: block;
     */
-  background: yellowgreen;	
-  font-style: normal;
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  height: 100%;
-  width:19.90%;		
+	background: #47b200;
+	font-style: normal;
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	height: 100%;
+	width: 19.90%;
+	color: black;
 }
-#menu ul li a {
-    
-    text-decoration:none;
-	display: block;
-    color: white;
-    text-align: center;
-	height:100%;
-}
-#menu ul li:hover {
-  background: greenyellow;
- }
-#menu ul li ul {
 
-  
-  padding: 0;
-  position: absolute;
-  width: 100%;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  
-     
-    /*Eugenio
+#menu ul li a {
+	text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	height: 100%;
+}
+
+#menu ul li:hover {
+	background: #5be500;
+}
+
+#menu ul li ul {
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	/*Eugenio
     width: 100%;
 	left: 100%;
 	float: left;
@@ -191,37 +187,35 @@ body{
 	display: none;
 	background-color: transparent;*/
 }
-#menu ul li ul li { 
-  
-  
-  background:  yellowgreen; /* #transparent nasconde una parte dandola un colore trasparente*/ 
-  display: block; 
-  color: #fff;
-  width: 100%;
-  
+
+#menu ul li ul li {
+	background: #47b200;
+	/* #transparent nasconde una parte dandola un colore trasparente*/
+	display: block;
+	color: #fff;
+	width: 100%;
+	border-bottom: 1px solid white;
 }
-#menu ul li ul li:hover 
-{ 
-  background: greenyellow; 
+
+#menu ul li ul li:hover {
+	background: #5be500;
 }
 
 #menu ul li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
+	display: block;
+	opacity: 1;
+	visibility: visible;
 }
 
 #leftmenu {
-
 	float: left;
-    width: 13.9%;
-    margin: 0;
-    padding: 1px;
+	width: 13.9%;
+	margin: 0;
+	padding: 1px;
 	text-overflow: clip;
 	border-bottom: 1px solid gray;
-    text-align:left;
-    
-    /*border-style: outset;
+	text-align: left;
+	/*border-style: outset;
 	width: 15%;
 	text-align:left;
 	margin:auto;
@@ -238,125 +232,202 @@ body{
     background-color: lightgrey;*/
 }
 
-#leftmenu ul{
-            
-            list-style: none;
-            padding: 0;
-            margin: 0;
-	        width: 100%;
-            background-color: #f1f1f1;
-	        border-bottom: 2px solid yellowgreen;
-    }
-
+#leftmenu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+}
 
 #leftmenu ul li a {
-    display: block;
-    color: #fff;
-    padding: 8px 6px;
-    text-decoration: none;
-	border-bottom: 1px solid gray;
-    background-color:yellowgreen;
+	display: block;
+	color: #fff;
+	padding: 8px 6px;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+	background-color: #47b200;
 }
+
 #leftmenu ul li:last-child a {
-    border-bottom: none;
+	border-bottom: none;
 }
 
 #lefmenu ul li {
-    text-align: center;
-    
+	text-align: center;
 }
-
 
 #leftmenu ul li:last-child {
-    border-bottom: none;
+	border-bottom: none;
 }
 
-/*
 #leftmenu ul li a.active {
-    background-color: #4CAF50;
-    color: white;
+	background-color: #47b200;
+	color: black;
 }
-#leftmenu ul li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-#leftmenu ul li a:hover {
-    background-color: #555;
-    color: white;
-}
-*/
-#articoliCentrali{
 
+#leftmenu ul li a:hover:not(.active) {
+	background-color: #5be500;
+}
+
+#leftmenu ul li a:hover {
+	background-color: #47b200;
+	color: black;
+}
+
+#articoliCentrali {
 	float: left;
 	width: 67.9%;
 	text-overflow: clip;
-	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
 	border-left: 1px solid gray;
+}
+
+#articolo1 {
+	float: right;
+	width: 99%;
+	text-overflow: clip;
+	border: 1px solid gray;
+	border-bottom: 2px solid white;
+	margin-left: 1px;
+	background-color: #ddffc6;
+}
+
+#articolo2 {
+	float: right;
+	width: 99%;
+	text-overflow: clip;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 2px solid white;
+	background-color: #ddffc6;
+}
+
+#articolo3 {
+	float: right;
+	width: 99%;
+	text-overflow: clip;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 2px solid white;
+	background-color: #ddffc6;
+}
+
+#articolo4 {
+	float: right;
+	width: 99%;
+	text-overflow: clip;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	background-color: #ddffc6;
+	border-bottom: 2px solid white;
+}
+
+#articolo5 {
+	float: right;
+	width: 99%;
+	text-overflow: clip;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 2px solid white;
+	background-color: #ddffc6;
+}
+
+#articolo6 {
+	float: right;
+	width: 99%;
+	text-overflow: clip;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid white;
+	background-color: #ddffc6;
 }
 
 article {
 	float: left;
-    width: 98%;
-    padding: 2%;
-    overflow: hidden;
+	width: 98%;
+	padding: 2%;
+	overflow: hidden;
 }
 
-#articoli{
-	float: left;
-    width: 13.9%;
-    margin: 0;
-	padding: 1%;
+#articoli {
+	float: right;
+	width: 17.6%;
+	margin: 0;
+	margin-bottom: 1px;
+	padding: 1px;
 	text-overflow: clip;
 	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
 }
 
-article, aside, figure, figcaption, footer, header, hgroup, nav, section{
-	     display: block;
+.djiby {
+	font-size: 15px;
+	text-align: center;
+	text-overflow: clip;
+	color: black;
 }
 
-#main{
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+nav,
+section {
+	display: block;
+}
+
+#main {
 	width: 99.9%;
 	float: left;
 	border: 1px solid gray;
-    margin-top:0.5%;
+	margin-top: 0.5%;
 }
 
-/* for 980px or less*/ 
+
+/* for 980px or less*/
+
 @media screen and (max-width: 980px) {
-		#body {
-			width: 94%;
-		}
-		#content {
-			width:65%;
-		}
-		#sidebar {
-		width:38%;
-		}
-}
- /*for 700px or less */
-@media screen and (max-width: 700px) {
-		
-		#content {
-			width: auto;
-			float: none;
-		}
-		#sidebar {
-			width: auto;
-			
-		}
+	#body {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	#sidebar {
+		width: 38%;
+	}
 }
 
- /*for 480px or less*/ 
+
+/*for 700px or less */
+
+@media screen and (max-width: 700px) {
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+	}
+}
+
+
+/*for 480px or less*/
+
 @media screen and (max-width: 480px) {
-		#header {
-			height: auto;
-		}
-		h1 {
-			font-size:24px;
-		}
-		#sidebar {
-		display:none;
-		}
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#sidebar {
+		display: none;
+	}
 }
 
 
@@ -578,7 +649,9 @@ header img {
 	width: 22%;
 	float: right;
 	/*clear: left;*/
-	/*margin: 2px;	
+
+
+/*margin: 2px;	
 	margin-left:0px;
 	margin: auto;
 	margin-right:10px;
