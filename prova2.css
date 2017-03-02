@@ -1,24 +1,46 @@
 /******************
 	GENERICI
 ******************/
+body, h1, h2, h3, h4, h5, h6, img, form, input, a, select, ul, li, span {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
 
 body {
 	width: 100%;
 	float: left;
 	margin: 0;
-	padding: 0;
+	padding: 0;	
+	display: block;
+}
+
+div {
+    display: block;
 }
 
 #container {
-	float: left;
-	width: 79.9%;
+	
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	/*width: 79.9%;
 	margin-top: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 5%;
-	/*border: 1px solid gray;*/
-	font-size: 20px;
-	height: 100%;
+	margin-bottom: 5%;*/
+	border: 1px solid gray;
+	font-size: 15px;
+	
+}
+
+#Upper{
+		width:800px;
+		padding-bottom:auto; 
 }
 
 #header {
@@ -34,12 +56,28 @@ body {
 
 #header img {
 	float: left;
-	width: 98%;
-	padding: 1%;
+	width: 99.3%;
+	padding: 0.3%;
 	height: auto;
 	display: block;
 }
 
+#slide {
+	float: left;
+	width: 60%;
+	height: 180px;
+	border: 1px solid gray;
+	margin-top: 3px;
+	margin-left:18%;
+	padding: 0.1%;
+}
+
+#slide .mySlides {
+	float: left;
+	width: auto;
+	height: 100%;
+	display: block;
+}
 footer {
 	padding: 0.5em;
 	color: white;
@@ -48,7 +86,6 @@ footer {
 	text-align: center;
 	height: 100px;
 }
-
 
 /*
 #navTop{
