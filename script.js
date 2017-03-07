@@ -15,8 +15,10 @@ function carousel() {
   x[myIndex - 1].style.display = "block";
   setTimeout(carousel, 5000);
 }
-*/
+
 
 
 document.getElementById("demo").innerHTML =
   new Date("2015-03-25");
+*/
+document.getElementById('demo').innerHTML = Date();
