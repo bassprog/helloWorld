@@ -22,3 +22,19 @@ document.getElementById("demo").innerHTML =
   new Date("2015-03-25");
 */
 document.getElementById('demo').innerHTML = Date();
+
+function apriFinestra1(obj) {
+  obj.innerHTML = "Vie"
+}
+
+function quidiFinestra1(obj) {
+  obj.innerHTML = "<div><img src=\"birth.jpg\" alt=\"HTML tutorial\" style=\"width:80px;height:80px;border:0;\"><p>\"Racontez-nous de sa vie\"</p></div>"
+}
+
+function apriFinestra2(obj) {
+  obj.innerHTML = "Son Oeuvre"
+}
+
+function quidiFinestra2(obj) {
+  obj.innerHTML = "<div><img src=\"birth.jpg\" alt=\"HTML tutorial\" style=\"width:42px;height:42px;border:0;\"><p>\"Racontez-nous de sa vie\"</p></div>"
+}
